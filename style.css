@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+.todo-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+.add-task input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+}
+.add-task button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
